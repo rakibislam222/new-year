@@ -1,6 +1,6 @@
 * {
   margin: 0;
-font-family: Work Sans;
+  font-family: Work Sans;
 }
 /* Style heading section */
 
@@ -17,7 +17,6 @@ font-family: Work Sans;
   color: #151414;
   font-size: 65px;
   font-weight: 700;
-
   width: 525px;
 }
 .banner-description {
@@ -31,24 +30,32 @@ font-family: Work Sans;
   margin: 32px 0 230px 355px;
   background: #f15b22;
   border-radius: 5px;
-  width: 160px;
-  height: 64px;
+  padding: 20px 24px;
   border: none;
   color: #fff;
   font-weight: 500;
   font-size: 20px;
 }
 /* Failure's style */
+
 .failure {
   display: flex;
-  width: 451px;
-  height: 898px;
   background-color: #FFF;
 }
+
+
 .failure-persion-pic {
+  height: 545px;
+  width: 500px;
+  margin-left: 200px;
+  margin-bottom: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(241, 91, 34, 0.20);
 }
 .description {
   width: 451px;
+  margin-left: 105px; 
 }
 ul li {
   list-style-position: inside;
@@ -56,16 +63,18 @@ ul li {
 }
 
 .my-failures-heading {
-  margin-top: 40px;
+  margin: 40px 24px 0 40px;
   width: 288px;
   color: #151414;
   font-weight: 700;
   font-size: 40px;
 }
 .my-failures-intro {
-  font-size: 16px;
-  color: #444343;
-  width: 416px;
+   margin-left: 40px;
+   margin-bottom: 16px;
+   font-size: 16px;
+   color: #444343;
+   width: 416px;
 }
 /* my-plan-styles */
 .my-plan-heading {
@@ -118,8 +127,7 @@ ul li {
   padding-bottom: 23px;
 }
 .btn-of-call-now{
-  width: 160px;
-  height: 64px;
+  padding: 20px 35px;
   border: none;
   color: #F15B22;
   text-align: center;
@@ -138,9 +146,9 @@ footer{
  
 }
 .future-part{
-padding-top: 130px;
-margin-left: 230px;
-padding-bottom: 16px;
+  padding-top: 130px;
+  margin-left: 230px;
+  padding-bottom: 16px;
 
 }
 .heading-of-future{
@@ -153,7 +161,7 @@ padding-bottom: 16px;
   width: 485px;
   font-size: 16px;
   color: #FFF;
- padding-bottom: 17px;
+  padding-bottom: 17px;
 
 }
 .future-part img{
@@ -177,12 +185,11 @@ padding-bottom: 16px;
   border-radius: 7px;
   background-color: #151414;
   text-align: start;
-border: #737272 solid;
+  border: #737272 solid;
 
 }
 .btn-of-subscribe{
-  width: 170px;
-  height: 64px;
+  padding: 20px 36px;
   border-radius: 7px;
   background: #FFF;
   font-size: 20px;
